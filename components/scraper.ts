@@ -1,13 +1,12 @@
-//const chrome = require("chrome-aws-lambda");
-//const puppeteer = require("puppeteer-core");
-import puppeteer from "puppeteer";
+const chrome = require("chrome-aws-lambda");
+const puppeteer = require("puppeteer-core");
+//import puppeteer from "puppeteer";
 
 export async function getCrieitBadge(user_id) {
   const browser = await puppeteer.launch({
-    // args: chrome.args,
-    // executablePath: await chrome.executablePath,
-    // headless: chrome.headless,
-    headless:true
+    args: chrome.args,
+    executablePath: await chrome.executablePath,
+    headless: chrome.headless
   });
   const page = await browser.newPage();
   await page.goto("https://crieit.net/users/"+user_id);
