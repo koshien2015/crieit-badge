@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "next": "9.5.2",
-    "puppeteer": "^5.2.1",
+    "chrome-aws-lambda": "5.2.0",
+    "puppeteer-core": "5.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "sass": "^1.26.10"
