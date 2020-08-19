@@ -1,0 +1,24 @@
+@font-face {
+  /*フォントの名前*/
+  font-family: "yomogi";
+  /*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
+  src: url("/fonts/1.woff2") format("woff2"),
+       url("/fonts/1.woff") format("woff");
+}
+body{
+  font-family: 'yomogi', sans-serif;
+  margin: 0px;
+}
+span.rank{
+  &.rank1{
+    background-color: #c7ab10;
+  }
+  &.rank2{
+    background-color: #abaaaa;
+  }
+  &.rank3{
+    background-color: #b1725a;
+  }
+  background-color: green;
+}
+
