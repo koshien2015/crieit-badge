@@ -25,10 +25,11 @@ const CrieitId = () =>{
                 //backgroundColor:'#212529',
                 //color:'white',
                 padding:10,
-                margin:0,
+                margin:4,
                 position:'relative',
                 //height:300,
-                width:400
+                width:400,
+                border:'1px solid black'
             }}
         >
             <div
@@ -80,10 +81,11 @@ const CrieitId = () =>{
                     position:'absolute',
                     opacity:0.5,
                     top:5,
-                    left:0,
+                    left:5,
                     filter: 'invert(100%)'
                 }}
             />
+            un-official badge
         </div>
     )
 }
