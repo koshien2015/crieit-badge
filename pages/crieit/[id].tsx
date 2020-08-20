@@ -76,16 +76,18 @@ const CrieitId = () =>{
                     </span>
                 ))}
             </div>
-            <img src='https://crieit.net/img/logo.png'
-                style={{
-                    position:'absolute',
-                    opacity:0.5,
-                    top:5,
-                    left:5,
-                    filter: 'invert(100%)'
-                }}
-            />
-            un-official badge
+            <div>
+                <img src='https://crieit.net/img/logo.png'
+                    style={{
+                        position:'absolute',
+                        opacity:0.5,
+                        top:5,
+                        left:5,
+                        filter: 'invert(100%)'
+                    }}
+                />
+                un-official badge
+            </div>
         </div>
     )
 }
