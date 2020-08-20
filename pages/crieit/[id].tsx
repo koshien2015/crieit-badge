@@ -76,7 +76,7 @@ const CrieitId = () =>{
                     </span>
                 ))}
             </div>
-            <div>
+            
                 <img src='https://crieit.net/img/logo.png'
                     style={{
                         position:'absolute',
@@ -86,6 +86,13 @@ const CrieitId = () =>{
                         filter: 'invert(100%)'
                     }}
                 />
+            <div
+                style={{
+                    position:'absolute',
+                    top:20,
+                    left:120
+                }}
+            >
                 un-official badge
             </div>
         </div>
