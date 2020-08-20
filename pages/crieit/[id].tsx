@@ -66,7 +66,8 @@ const CrieitId = () =>{
                                 borderRadius:3,
                                 margin:3,
                                 padding:2,
-                                fontSize:12
+                                fontSize:12,
+                                color:'white'
                             }}
                         >
                             {data.ranksObj[key]}位
@@ -79,7 +80,8 @@ const CrieitId = () =>{
                     position:'absolute',
                     opacity:0.5,
                     top:5,
-                    left:0
+                    left:0,
+                    filter: 'invert(100%)'
                 }}
             />
         </div>
