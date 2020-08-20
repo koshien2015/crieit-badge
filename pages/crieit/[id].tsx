@@ -32,24 +32,27 @@ const CrieitId = () =>{
                 border:'1px solid black'
             }}
         >
-            <div
-                style={{
-                    position:'absolute',
-                    top:50,
-                    fontSize:16
+            <div style={{
+                    display: 'flex',
+                    alignItems: 'flex-end',
+                    margin: '3px',
                 }}
             >
+                <img src='https://crieit.net/img/logo.png'
+                    style={{
+                        opacity:0.5,
+                        filter: 'invert(100%)'
+                    }}
+                />
+                <div style={{ marginLeft: '4px' }}>
+                    un-official badge
+                </div>
+            </div>
+            <div style={{ margin: '12px 4px 6px' }}>
                 <div>経験値:&nbsp;&nbsp;{data.exp}</div>
                 <div>今年の記事:&nbsp;&nbsp;{data.articles}</div>
-            
             </div>
-            <div
-                style={{
-                    //position:'absolute',
-                    marginTop:100,
-                    fontSize:14
-                }}
-            >
+            <div style={{ fontSize: 14 }}>
                 {Object.keys(data.ranksObj).map((key)=>(
                     <span
                         style={{
@@ -77,24 +80,6 @@ const CrieitId = () =>{
                 ))}
             </div>
             
-                <img src='https://crieit.net/img/logo.png'
-                    style={{
-                        position:'absolute',
-                        opacity:0.5,
-                        top:5,
-                        left:5,
-                        filter: 'invert(100%)'
-                    }}
-                />
-            <div
-                style={{
-                    position:'absolute',
-                    top:20,
-                    left:120
-                }}
-            >
-                un-official badge
-            </div>
         </div>
     )
 }
