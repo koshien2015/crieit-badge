@@ -22,13 +22,14 @@ const CrieitId = () =>{
         <div
             id="main"
             style={{
-                backgroundColor:'#212529',
-                color:'white',
+                //backgroundColor:'#212529',
+                //color:'white',
                 padding:10,
-                margin:0,
+                margin:4,
                 position:'relative',
                 //height:300,
-                width:400
+                width:400,
+                border:'1px solid black'
             }}
         >
             <div
@@ -66,7 +67,8 @@ const CrieitId = () =>{
                                 borderRadius:3,
                                 margin:3,
                                 padding:2,
-                                fontSize:12
+                                fontSize:12,
+                                color:'white'
                             }}
                         >
                             {data.ranksObj[key]}位
@@ -74,14 +76,25 @@ const CrieitId = () =>{
                     </span>
                 ))}
             </div>
-            <img src='https://crieit.net/img/logo.png'
+            
+                <img src='https://crieit.net/img/logo.png'
+                    style={{
+                        position:'absolute',
+                        opacity:0.5,
+                        top:5,
+                        left:5,
+                        filter: 'invert(100%)'
+                    }}
+                />
+            <div
                 style={{
                     position:'absolute',
-                    opacity:0.5,
-                    top:5,
-                    left:0
+                    top:20,
+                    left:120
                 }}
-            />
+            >
+                un-official badge
+            </div>
         </div>
     )
 }
