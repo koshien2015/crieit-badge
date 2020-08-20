@@ -22,8 +22,8 @@ const CrieitId = () =>{
         <div
             id="main"
             style={{
-                backgroundColor:'#212529',
-                color:'white',
+                //backgroundColor:'#212529',
+                //color:'white',
                 padding:10,
                 margin:0,
                 position:'relative',

@@ -1,12 +1,7 @@
-@font-face {
-  /*フォントの名前*/
-  font-family: "yomogi";
-  /*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
-  src: url("/fonts/1.woff2") format("woff2"),
-       url("/fonts/1.woff") format("woff");
-}
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+
 body{
-  font-family: 'yomogi', sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   margin: 0px;
 }
 span.rank{
