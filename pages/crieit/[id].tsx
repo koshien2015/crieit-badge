@@ -29,7 +29,7 @@ const CrieitId = () =>{
                 position:'relative',
                 //height:300,
                 width:400,
-                border:'1px solid black'
+                border:'1px solid #d2d2d2'
             }}
         >
             <div style={{
